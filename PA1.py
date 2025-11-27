@@ -32,7 +32,7 @@ def upper_bound_nth_prime(n: int) -> int:
 
 
 # ------------------------------------------------------------
-# Primality detectors (Part 2)
+# Primality detectors 
 # ------------------------------------------------------------
 
 def wilson_is_prime(k: int) -> int:
@@ -110,7 +110,7 @@ def miller_rabin_is_prime(n: int, rounds: int = 8) -> int:
 
 
 # ------------------------------------------------------------
-# nth prime using any detector (Part 3)
+# nth prime using any detector 
 # ------------------------------------------------------------
 
 def nth_prime_via_detector(
@@ -139,4 +139,5 @@ def nth_prime_via_detector(
     raise RuntimeError(
         f"Upper bound {B} was insufficient to find the {n}th prime."
     )
+
 
