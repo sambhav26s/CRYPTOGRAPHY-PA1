@@ -35,3 +35,4 @@ nth_prime_via_detector(n, trial_division_is_prime)
 nth_prime_via_detector(n, wilson_is_prime)
 nth_prime_via_detector(n, miller_rabin_is_prime)
 SUBMITTED BY SAMBHAV BHANDARI -2023A7PS0549P
+I think i have done bonus option also but on a safe side if i will do PA2 also
