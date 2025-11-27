@@ -1,7 +1,7 @@
-# nth_prime_computer.py
-"""
+
+
 Modular implementation of primality detectors and an nth-prime computer.
-Submitted for the RSA Primality Testing assignment.
+
 
 This file contains:
   • Wilson's primality test
@@ -139,3 +139,4 @@ def nth_prime_via_detector(
     raise RuntimeError(
         f"Upper bound {B} was insufficient to find the {n}th prime."
     )
+
